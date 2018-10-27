@@ -1,0 +1,7 @@
+The values in slope_vector (see c_estimation.m) are approximately equal to 1. Hence, we can say C ~ 1 (that is, C is approximately 1). So the convergence is linear. 
+
+Since K is a symmetric matrix exact convergence is O(|lambda_2/lambda_1|^2m) where m is the max number of iterations. Since the eigenvalues are exact m = 1. So the expected convergence rate is exp(|lambda_2/lambda_1|^2) = exp((0.4675)^2) = exp(0.2186) = 1.224. That is, it is close to our estimate C.
+
+b) The eigenfunctions flip back and forth since the approximation alternates between same negative and positive version of an eigenvector. 
+
+d) No. This iteration converges fairly quickly. 

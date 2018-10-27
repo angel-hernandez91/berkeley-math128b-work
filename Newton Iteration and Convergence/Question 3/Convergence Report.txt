@@ -1,0 +1,5 @@
+The algorithm fails to convergence when dy = 0.02 as expected. MATlab returns
+	"Warning: Imaginary parts of complex X and/or Y arguments ignored 
+	> In q2 at 19 "
+
+THe algorithm converges for Nc = 2 and Nc = 4. But fails to converge for Nc = 2 in the sense that the approximate values for theta are significantly off as can be seen by the plot in p3_NON_convergent_nc1_plot.pdf. 
